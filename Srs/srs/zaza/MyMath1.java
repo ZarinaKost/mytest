@@ -29,4 +29,9 @@ public class MyMath1 {
         int min = min(a, b);
         return min(min, c);
     }
+    
+    
+    public static int IsOdd(int a){
+        return(a%2 !=0) ;
     }
+}
